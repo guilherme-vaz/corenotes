@@ -1,0 +1,14 @@
+.create_note_container {
+    margin-bottom: 2rem;
+    background-color: white;
+    box-shadow: 0.125rem 0.125rem 0.188rem rgba(0, 0, 0, 0.25);
+    border-radius: 0.3rem;
+    
+}
+@media screen and (min-width: 800px){
+
+    .create_note_container{
+        width: 50%;
+        margin: 0 auto;
+    }
+}

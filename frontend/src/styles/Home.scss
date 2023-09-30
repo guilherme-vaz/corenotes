@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300;400&display=swap');
+
+body {
+    background-color: #F0F2F5 ;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F0F2F5;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .title {
+        font-family: 'Poppins';
+        font-weight: 500;
+        color: #B0C4DE;
+        font-size: 0.875rem;
+        margin-bottom: 0.6rem;
+        letter-spacing: 0.3rem;
+        opacity: 0.8;
+    }
+
+    .notes_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 0rem 0rem 2rem 0rem; 
+        flex-wrap: wrap;
+    }
+}
+
+.search_bar {
+        
+    background-color: white;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0px 1px 7px rgba(149, 149, 149, 0.25);
+
+    .title_img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 0.5rem;  
+    }
+
+    h1 {
+        font-family: 'Poppins', 'sans-serif';
+        font-weight: 500;
+        margin: 0.6rem 0rem 0.3rem 0.6rem;
+    }
+    
+    input {
+        font-family: 'Roboto';
+        font-weight: 400;
+        border: 2px solid #D3D3D3;  
+    }
+
+    .icone {
+        font-weight: 400;
+
+        margin-right: 1rem;
+        opacity: 0.4;
+    }
+
+    input::placeholder{
+        opacity: 0.5;
+    }
+    
+}
+
+
+@media screen and (min-width: 800px){
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 4rem;
+    }
+
+    .group_input{
+        margin-left: 2rem;
+    }
+
+    .search_bar {
+        margin-bottom: 0rem;
+        padding: 1rem 4rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: row; 
+
+        .title_img {
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+
+    
+    }
+
+    .container .notes_container {
+        flex-direction: row;
+        justify-content: start;
+        gap: 2rem;
+        align-items: start;
+        padding: 0rem 0rem 2rem 0rem; 
+    }
+
+    .title_fav {
+        margin-top: 4rem;
+    }
+
+   
+}

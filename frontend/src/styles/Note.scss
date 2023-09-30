@@ -1,0 +1,32 @@
+
+.note {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+
+  width: 22rem;
+
+
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0.125rem 0.125rem 0.188rem rgba(0, 0, 0, 0.25);
+
+  .note_title {
+    font-family: "Poppins";
+    padding: 1rem;
+    color: #4f4f4d;
+    font-size: 1.2rem;
+  }
+
+  .divider {
+    opacity: 0.3;
+  }
+
+  .note_text {
+    font-family: "Roboto";
+    color: #4f4f4d;
+    font-size: 0.875rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    text-align: justify;
+  }
+}

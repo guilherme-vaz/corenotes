@@ -1,0 +1,68 @@
+.form_container {
+    padding: 0.5rem;
+    border: 1px solid #D3D3D3;
+    border-radius: 0.3rem;
+
+    .form_control_title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        button {
+            margin-right: 1rem;
+        }
+    }
+
+    .title_input {
+        border: none;
+        font-family: 'Poppins';
+        font-weight: 500;
+    }
+
+    .title_input:focus{
+        outline: none;
+    }
+    
+    .title_input::placeholder{
+        color: #000000;
+        opacity: 0.5;
+    }
+
+    .textarea{
+        border: none;
+        margin-top: 0rem;
+        color: #000000;
+        opacity: 0.5;
+        outline: none;
+    }
+
+    .textarea:focus{
+        border: none;
+        outline: none;
+    }
+
+    .button {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .button_save {
+        background-color: #4169E1;
+        color: white;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .button_cancel {
+        background-color: white;
+        border: 2px solid #DC143C;
+        color: #DC143C;
+    }
+
+    .button_cancel:hover{
+        background-color: #DC143C;
+        color: white;
+    }
+}
+
+
