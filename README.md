@@ -52,7 +52,7 @@ $ npm run dev
 - [x] Use of Typescript
 - [x] Use of Prettier
 - [x] Use of ESLint
-- [ ] Tests
+- [x] Tests
 - [ ] CI/CD
 
 -----
