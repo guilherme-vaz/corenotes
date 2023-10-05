@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /**
  * File source: https://bit.ly/3ukaHTz
  *
